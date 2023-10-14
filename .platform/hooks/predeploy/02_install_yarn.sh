@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'Installing a node for the yarn install...'
-curl --silent --location https://rpm.nodesource.com/setup_14.23.1 | sudo bash -
+curl --silent --location https://rpm.nodesource.com/setup_14.x | sudo bash -
 yum -y install nodejs
 
 echo 'Installing yarn...'
